@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "JiraCopy",
+  "version": "1.0",
+ 
+  "description": "Functionality to copy various parts of Jira issue to clipboard",
+  "icons": {
+    "48": "icons/48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "ac196ed04ffd4ed890887c2ad743de76@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+  
+  "permissions": ["contextMenus", "clipboardWrite"],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
