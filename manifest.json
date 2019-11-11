@@ -16,7 +16,7 @@
     }
   },
   
-  "permissions": ["contextMenus", "clipboardWrite"],
+  "permissions": ["contextMenus", "clipboardWrite", "activeTab"],
 
   "background": {
     "scripts": ["background.js"]
